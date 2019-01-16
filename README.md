@@ -1,13 +1,13 @@
 # Colorunner
 
-Colorunner je jednostavna igrica napravljena koristeci OpenGl biblioteku, za potrebe kursa Racunarska Grafika na Matematickom fakultetu, 2018 godine.
+Colorunner je jednostavna igrica napravljena koristeći OpenGl biblioteku, za potrebe kursa Računarska Grafika na Matematičkom fakultetu, 2018 godine.
 
 ## Kratka pravila
 
-Igrac kontrolise lopticu koja se krece stazom. Loptica se moze kretati levo ili desno. Loptica moze biti odredjene boje
-(crvena, zelena ili plava), i kada se pojave obojene prepreke loptica moze proci samo kroz prepreku koja je iste boje.
-Takodje, moze se pojaviti i roze polje, i loptica ce promeniti boju i nastaviti da se krece normalno kada predje preko njega. 
-Cilj igre je da igrac sto duze uspesno kontrolise lopticu i pazi da ne padne sa platforme ili prodje kroz prepreku pogresne boje.
+Igrač kontroliše lopticu koja se kreće stazom. Loptica se može kretati levo ili desno. Loptica može biti određene boje
+(crvena, zelena ili plava), i kada se pojave obojene prepreke loptica moze proći samo kroz prepreku koja je iste boje.
+Takođe, može se pojaviti i roze polje, i loptica će promeniti boju i nastaviti da se kreće normalno kada pređe preko njega. 
+Cilj igre je da igrač što duže uspešno kontroliše lopticu i pazi da ne padne sa platforme ili prođe kroz prepreku pogrešne boje.
 
 ### Kontrole
 
@@ -18,7 +18,7 @@ Cilj igre je da igrac sto duze uspesno kontrolise lopticu i pazi da ne padne sa 
 
 ## Instalacija i pokretanje igre
 
-Instalacija i pokretanje igre su prilicno jednostavni. Potrebno je otvoriti terminal, pozicionirati se na datoteku sa fajlovima i uneti komandu:
+Instalacija i pokretanje igre su prilično jednostavni. Potrebno je otvoriti terminal, pozicionirati se na datoteku sa fajlovima i uneti komandu:
 
 ```
 make
@@ -32,11 +32,11 @@ Nakon toga, igra se startuje komandom:
 
 ## Nekoliko slika iz same igre
 
-Loptica je prosla kroz prepreku drugacije boje - Kraj igre
+Loptica je prošla kroz prepreku drugačije boje - Kraj igre
 ![slika1](screenshots/1.png)
 
-Loptica je prosla kroz prepreku iste broje i nastavlja dalje. Nakon toga ce stati na roze polje, sto ce izmeniti njenu boju.
+Loptica je prošla kroz prepreku iste broje i nastavlja dalje. Nakon toga će stati na roze polje, što će izmeniti njenu boju.
 ![slika2](screenshots/2.png)
 
-Loptica se krece uspesno.
+Loptica se kreće uspešno.
 ![slika3](screenshots/3.png)
